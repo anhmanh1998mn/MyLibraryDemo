@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DemoLibrary
+//  MyLibrary
 //
 //  Created by Chu Van Manh on 20/8/25.
 //
