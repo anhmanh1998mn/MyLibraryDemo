@@ -1,13 +1,28 @@
-Pod::Spec.new do |s|
-  s.name         = 'MyLibrary'
-  s.version      = '0.1.0'
-  s.summary      = 'A simple Swift library.'
-  s.description  = 'MyLibrary is a reusable Swift component.'
-  s.homepage     = 'https://github.com/anhmanh1998mn/MyLibraryDemo'
-  s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'cvmanh' => 'youremail@example.com' }
-  s.source       = { :git => 'https://github.com/anhmanh1998mn/MyLibraryDemo.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '11.0'
-  s.swift_version = '5.0'
-  s.source_files  = 'Source/MyLibrary/**/*.{swift}'
+
+
+Pod::Spec.new do |spec|
+
+
+  spec.name         = "MyLibrary"
+  spec.version      = "0.1.2"
+  spec.summary      = "A short description of MyLibrary."
+  spec.description  = "des"
+
+  spec.homepage     = "https://github.com/anhmanh1998mn/MyLibraryDemo"
+ 
+
+  spec.license      = "MIT (example)"
+
+
+
+  spec.author             = { "Chu Van Manh" => "" }
+  
+
+  spec.source       = { :git => "https://github.com/anhmanh1998mn/MyLibraryDemo.git", :tag => "#{spec.version}" }
+
+
+  spec.source_files  = "Source", "Source/**/*.{h,m}"
+
+
+
 end
